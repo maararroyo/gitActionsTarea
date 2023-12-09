@@ -19,10 +19,10 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run Python scripts
       run: |
-        python gitActions/codigos/app.py
-        python gitActions/codigos/appBad.py
-        python gitActions/codigos/appGood.py
-        python gitActions/codigos/pandapp.py
-        python gitActions/codigos/timer.py
+        python codigos/app.py
+        python codigos/appBad.py
+        python codigos/appGood.py
+        python codigos/pandapp.py
+        python codigos/timer.py
         # Asegúrate de actualizar las rutas de todos los scripts que deseas ejecutar.
 
